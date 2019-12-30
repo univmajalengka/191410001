@@ -1,21 +1,11 @@
-#include<iostream>
+#include<iostream>;
 using namespace std;
-int main()
+int main ()
 {
-	//menukarkan 2 buah bilangan
-	int a, b, c;
-	a=3;
-	b=5;
-	cout<<a<<endl;
-	cout<<b<<endl;
-	
-	c=a;
-	a=b;
-	b=c;
-	cout<<a<<endl;
-	cout<<b<<endl;
-
-	
-	
+	int a,b,c;
+	cout<<"Masukan Nilai Pertama = "; cin>>a;
+	cout<<"Masukan Nilai Kedua = "; cin>>b;
+	cout<<"Hasil Nilai = "; c=a/b;
+	cout<<c<<endl;
 	return 0;
 }
