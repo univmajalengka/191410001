@@ -3,7 +3,7 @@ using namespace std;
 
 int kj(int j,int m, int d){
     int k;
-    k = (j*360)+(m*60)+d;
+    k = (j*3600)+(m*60)+d;
     return k;
 }
 int main()
