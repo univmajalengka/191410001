@@ -22,8 +22,8 @@ int main()
 
  cout << "Jumlah detik 1: " << kj(jam1,menit1,detik1)<<endl;
     cout << "Jumlah detik 2: " << kj(jam2,menit2,detik2)<<endl;
-    int jumlah;
-    jumlah =  kj(jam1,menit1,detik1)+ kj(jam2,menit2,detik2);
-    cout<<"hasil :"<<jumlah;
+    int selisih;
+    selisih = kj(jam2,menit2,detik2) - kj(jam1,menit1,detik1);
+    cout<<"hasil :"<<selisih;
     return 0;
 }
