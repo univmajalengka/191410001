@@ -18,9 +18,9 @@ int main()
 
     cout << "masukkan jam 2: "; cin >> jam2;
     cout << "masukkan menit 2: "; cin >> menit2;
-    cout << "masukkan detik 2: "; cin >> detik1;
+    cout << "masukkan detik 2: "; cin >> detik2;
 
- cout << "Jumlah detik 1: " << kj(jam1,menit1,detik1)<<endl;
+	cout << "Jumlah detik 1: " << kj(jam1,menit1,detik1)<<endl;
     cout << "Jumlah detik 2: " << kj(jam2,menit2,detik2)<<endl;
     int selisih;
     selisih = kj(jam2,menit2,detik2) - kj(jam1,menit1,detik1);
