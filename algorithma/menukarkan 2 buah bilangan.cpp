@@ -1,11 +1,17 @@
 #include<iostream>;
 using namespace std;
-int main ()
-{
-	int a,b,c;
-	cout<<"Masukan Nilai Pertama = "; cin>>a;
-	cout<<"Masukan Nilai Kedua = "; cin>>b;
-	cout<<"Hasil Nilai = "; c=a/b;
-	cout<<c<<endl;
-	return 0;
+struct nasabah{
+int status;
+char namaLengkap[50],alamatRumah [100], noHP[13];
+};
+
+int main(){
+nasabah nab;
+cout<<"status= ";cin>>nab.status;
+cout<<"masukan nama= ";cin>>nab.namaLengkap;
+cout<<"alamat rumah= ";cin>>nab.alamatRumah;
+cout<<"No hp= ";cin>>nab.noHP;
+cout<<endl;
+return 0;
+
 }
