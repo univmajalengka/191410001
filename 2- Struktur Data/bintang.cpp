@@ -10,7 +10,7 @@ int main()
 		}
 		for(int k = 1; k <= i; k++)
 		{
-			cout << "*";
+			cout << "0";
 		}
 	cout<<endl;
 	}
