@@ -4,7 +4,7 @@ int a;
 int main(){
 	cout<<"masukan angka : ";
 	cin>>a;
-    for(int i = 1; i < a; i++){
+    for(int i = 1; i <= a; i++){
     	
         if((i%3!=0) && (i%5!=0))
 		{
