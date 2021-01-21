@@ -30,4 +30,5 @@ int main()
 		}
 	cout<<"\n";
 	cout<<"nilai yang dihapus adalah: "<<hapus;
+//	}
 }
