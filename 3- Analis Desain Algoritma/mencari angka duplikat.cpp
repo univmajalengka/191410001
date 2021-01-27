@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int a[10] = {3,2,2,3,5,6,7,7,10,10},dup[10],tmp,jumlah;
+int a[10] = {3,2,2,3,5,6,7,7,10,10},tmp,jumlah;
 int main ()
 {
 	for(int h=0; h<10; h++)
